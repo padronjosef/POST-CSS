@@ -1,0 +1,10 @@
+npm install postcss-import --save			= descarga el modelo de postcss import que permite modular el css
+
+npm install postcss-font-magician --save-dev		= descarga el modelo de postcss font magician
+
+
+
+
+
+
+  user-select: none; (css para que cuando le de click no se seleccione el elemento)

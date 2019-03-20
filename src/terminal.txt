@@ -1,0 +1,23 @@
+npm init						= iniciar json
+npm init -y						= iniciar json rapido
+
+npm install postcss-cli --save				= descarga POSTCSS
+npm install postcss-cli@5.0.0 --save			= descarga POSTCSS 5.0.0
+npm install --save autoprefixer				= descarga el autoprefixer
+
+npx postcss --version					= ver vercion
+
+npx postcss src/css/home.css -o dist/css/home.css	= para transformar un archivo en ser ejecuta el siguiente comando:
+								La primera ruta indica el archivo base en PostCSS
+								-o indica la salida
+								La segunda ruta es donde se guardara el archivo transformado
+
+npx postcss src/css/home.css -o dist/css/home.css -w 	= Transformar un ves que se realice un cambio:
+								 -w | --watch revisa los cambios
+
+
+
+/* autoprefixer: off */					= para apagar autoprefixed en un selector dejar este comentario
+
+
+
