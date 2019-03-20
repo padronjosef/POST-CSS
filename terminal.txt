@@ -1,10 +1,19 @@
-npm install postcss-import --save			= descarga el modelo de postcss import que permite modular el css
-
-npm install postcss-font-magician --save-dev		= descarga el modelo de postcss font magician
-
+npx postcss src/css/home.css -o dist/css/home.css	= crea el archivo con todos los modulos a aplicar
+npx postcss src/css/home.css -o dist/css/home.css -w	= va aplicando los modulos en tiempo real
 
 
+npm install postcss-import --save			= descarga el modelo de postcss import que permite modular el css.
+
+npm install postcss-font-magician --save-dev		= agrega las fuentes automaticamente al css que se usen en la pag.
+
+npm install stylelint --save-dev			=descarga styleling (que no guarda los cambios si no va con las
+							 reglas de css que escribiste)
+
+npm install grunt-css-mqpacker --save-dev		= agrupa los media queries
+
+npm install --save cssnano				= comprime los archivos de css
 
 
+el orden es importante
 
   user-select: none; (css para que cuando le de click no se seleccione el elemento)
